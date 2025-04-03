@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paytm</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo-name">
+            <img id="lgo" src="./logo.png" alt="logo" height="40px">
+        </div>
+        <input type="checkbox" id="toggle-menu">
+        <div class="hamburger" onclick="this.classList.toggle('active');">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#">Paytm for Consumer</a></li>
+            <li><a id="a1" href="#">Paytm For Business</a></li>
+            <li><a id="a2" href="#">Investor Relations</a></li>
+            <li><a id="a3" href="#">Company</a></li>
+            <li><a id="a4" href="#">Career</a></li>
+        </ul>
+        <div class="sign">
+            <p id="sign">Sign In</p>
+            <div class="dbg">
+                <img id="signin" src="./signin2.png" alt="signin" height="30px">
+            </div>
+        </div>
+    </nav>
+<!-- paytm travel -->
+    <div class="travel">
+        <div class="main">
+        <div class="vehicle">
+            <div class="flights">
+                <img id="flight" src="./flight.png" alt="logo" height="20px">
+                <p id="flt">Flights</p>
+            </div>
+            <div class="bus">
+                <img src="./bus.png" alt="bus" height="20px">
+                <p id="bstxt">Bus</p>
+            </div>
+            <div class="train">
+                <img src="./train.png" alt="train" height="20px">
+                <p id="trntxt">Trains</p>
+            </div>
+            <div class="flight2">
+                <img src="./flight2.png" alt="flight" height="20px">
+                <p id="fltxt">Intl.Flight</p>
+            </div>
+            <img id="ptmtrvl" src="./ptmtrvl.png" alt="ptmtrvl" height="25px">
+        </div>
+        <!-- white box -->
+            <div class="whitebox">
+                <div class="radio">
+                    <!-- <input type="radio" id="ow" name="journeyType" class="radio" checked="" value="oneWay" label="One Way"> -->
+                    <input type="radio" name="journeyType" value="oneWay" id="ow" label="One Way">
+                    <label class="_8JgOD" for="ow" id="ow">One Way</label>
+                    <input type="radio" name="journeyType" value="rTrip" id="rt" label="Round Trip">
+                    <label class="" for="rt" id="rt">Round Trip</label>
+                </div>
+                <!-- del -->
+                 <div class="del">
+                    <p><span style="color: gray;">From</span> <br> <span class="cp1" id="caps" style="font-weight: bold; font-size: 1rem;">DEL</span> <br><br>Delhi </p>
+                    <hr id="hr1" style="width: 160px;">
+                 </div>
+                 <img id="aro" src="./aro.png" alt="">
+                 <div class="bom">
+                    <p><span style="color: gray;">To</span> <br> <span id="caps2" style="font-weight: bold; font-size: 1rem;">BOM</span> <br><br>Mumbai,Maharashtra </p>
+                    <hr id="hr2" style="width: 190px;">
+                 </div>
+                 <div class="date">
+                    <p><span style="color: gray;">Departure Date</span> <br> <span id="caps3" style="font-weight: bold; font-size: 1rem;">05 Dec 24</span> <br><br>Thrusday</p>
+                    <hr id="hr3" style="width: 140px;">
+                 </div>
+                 <div class="addr">
+                    <p><br> <span id="caps4" style="font-weight: bold; font-size: 1rem; color: rgb(42, 187, 244);">+Add Return</span> <br><br>Save More</p>
+                    <hr id="hr4"  style="width: 100px;">
+                 </div>
+                 <div class="ttrvl">
+                    <p><span style="color: gray;">Travellers & Cabin Class</span></p> <br> <span id="caps5" style="font-weight: bold; font-size: 1rem;">1 Traveller</span>Economy</p>
+                    <hr id="hr5" style="width: 140px;">
+                 </div>
+                 <div class="srchflt">
+                    <p id="sf">Search Flights</p>
+                 </div>
+                 <div class="wwrds">
+                    <p id="wrd">Special Fares (optional) <span id="wrd1">Armed Forces</span> <span id="wrd2">Student</span> <Span id="wrd3">Senior Citizen</Span></p>
+                 </div>
+            </div>
+        </div>
+
+        <div class="offers">
+            <img id="tckt" src="./trvl1.avif" height="225px">
+            <img id="tckt" src="./trvl2.avif" height="225px">
+            <img id="tckt" src="./trvl3.avif" height="225px">
+        </div>
+    </div>
+
+    <!-- pay bills -->
+    <h1 id="recharge">Recharge & Pay Bills on Paytm.</h1>
+     <div class="bills">
+        <div class="pay">
+            <img id="b1" src="./ph.png" alt="phone" height="60px" style="padding: 15px;">
+            <p>Recharge <br><span id="spc1"><b>Prepaid </b></span> <br><span id="spct1"><b>Mobile ></b></span> </p>
+        </div>
+        <div class="pay1">
+            <img id="b1" src="./blb.png" alt="bulb" height="60px" style="padding: 15px;">
+            <p>Pay <br><span id="spc1"><b>Electricity</b></span> <br><span id="spct1"><b>Bill ></b></span> </p>
+        </div>
+        <div class="pay2">
+            <img id="b1" src="./sat.png" alt="bulb" height="60px" style="padding: 15px;">
+            <p>Recharge <br><span id="spc1"><b>DTH</b></span> <br><span id="spct1"><b>Connection ></b></span> </p>
+        </div>
+        <div class="pay3">
+            <img id="b1" src="./clnd.png" alt="cylinder" height="60px" style="padding: 15px;">
+            <p>Book <br><span id="spc1"><b>Gas</b></span> <br><span id="spct1"><b>Cylinder ></b></span> </p>
+        </div>
+        <div class="pay4">
+            <img id="b1" src="./sgnl.png" alt="cylinder" height="60px" style="padding: 15px;">
+            <p>Pay <br><span id="spc1"><b>Broadband &</b></span> <br><span id="spct1"><b>Landline Bill ></b></span> </p>
+        </div>
+        <div class="pay5">
+            <img id="b1" src="./bk.png" alt="book" height="60px" style="padding: 15px;">
+            <p>Pay <br><span id="spc1"><b>Education</b></span> <br><span id="spct1"><b>Fee ></b></span> </p>
+        </div>
+        <div class="pay6">
+            <img id="b1" src="./lyr.png" alt="book" height="60px" style="padding: 15px;">
+            <p>All<br><span id="spc1"><b>Payment</b></span> <br><span id="spct1"><b>Services ></b></span> </p>
+        </div>
+     </div>
+
+     <!-- loved app -->
+      <div class="imlpa">
+        <div class="mainapp">
+            <img src="./logo2.png" alt="logo">
+            <h1>India's Most-loved <br>Payments App</h1>
+            <p style="font-size: 1.3rem;">Recharge & pay bills, book flights & movie tickets, <br> invest in stocks & mutual funds, and do a lot <br> more.</p>
+            <div class="apps">
+                <p id="dld">Download Paytm App</p>
+                <div class="app">
+                    <img id="appl" src="./apple.png" alt="logo" height="30px">
+                    <img id="store" src="./apstore.png" alt="logo" height="30px">
+                </div>
+            </div>
+        </div>
+        <img id="threeph" src="./threph.avif" alt="img" height="500px">
+      </div>
+
+      <!-- book & buy -->
+      <h1 id="buy">Book & Buy on Paytm.</h1>
+      <div class="bkby">
+         <div class="payy">
+             <img src="./move.png" alt="phone" height="60px" style="padding: 15px;">
+             <p class="bbtxt"><b>Movie <br> Tickets ></b></p>
+         </div>
+         <div class="payy1">
+             <img src="./plane.png" alt="bulb" height="60px" style="padding: 15px;">
+             <p class="bbtxt"><b>Flight <br> Tickets ></b></p>
+         </div>
+         <div class="payy2">
+             <img src="./bus2.png" alt="bulb" height="60px" style="padding: 15px;">
+             <p class="bbtxt"><b>Bus <br> Tickets ></b></p>
+         </div>
+         <div class="payy3">
+             <img src="./train2.avif" alt="cylinder" height="60px" style="padding: 15px;">
+             <p class="bbtxt"><b>Train <br> Tickets ></b></p>
+         </div>
+         <div class="payy4">
+             <img src="./wrldplane.png" alt="cylinder" height="60px" style="padding: 15px;">
+             <p class="bbtxt"><b>International <br> Flights ></b></p>
+         </div>
+         <div class="payy5">
+             <img src="./umbrla.png" alt="book" height="60px" style="padding: 15px;">
+             <p class="bbtxt"><b>Buy <br> Insurance ></b></p>
+         </div>
+         <div class="payy6">
+             <img src="./invst.webp" alt="book" height="60px" style="padding: 15px;">
+             <p class="bbtxt"><b>Invesr <br> in Stocks ></b></p>
+         </div>
+       </div>
+
+       <!-- paytm payment instruments -->
+        <div class="instruments">
+          <h1 id="ppt">Paytm Payment Instruments</h1>
+          <!-- div1 -->
+            <div class="ppl">
+                <div class="upi">
+                    <img src="kaash.png" alt="img" height="90px">
+                    <p id="upitxt" style="font-size: 1.1rem;"> <b>UPI Money <br> Transfer</b></p>
+                    <h2>Pay anyone directly <br> from your bank <br> account.</h2>
+                    <p style="font-size: 1.1rem;">Pay anyone, everywhere. Make contactless & secure <br> payments in-stores or online using Paytm UPI or <br> Directly from your Bank Account. Plus, send & receive <br> money from anyone.</p>
+                    <img id="paid" src="paid.avif" alt="img" height="500px">
+                </div>
+                <div class="appss">
+                    <p id="dld">Download Paytm App</p>
+                    <div class="app">
+                        <img id="appl" src="./apple.png" alt="logo" height="30px">
+                        <img id="store" src="./apstore.png" alt="logo" height="30px">
+                    </div>
+                </div>
+            </div>
+            <!-- div2 -->
+            <div class="hdfc">
+                <div class=" hdfcc">
+                    <img  id="hdfc1" src="./hdfc.png" alt="" height="90px">
+                    <h1 style="font-size: 2.5rem;">Unlimited Cashback <br> Every Time</h1>
+                    <p style="font-size: 1.3rem;">Paytm HDFC Bank Select Credit Card. A card <br> with assured Cashback and incredible offers.<hp>
+                    <p style="font-size: 0.8rem; color: gray;">*Paytm Payments Bank does not provide any loan or credit <br> card on the Paytm App. <span style="color: rgb(40, 161, 241);">Know more.</span></p>
+                    <img src="./crd1.webp" alt="" height="300px">
+                </div>
+            </div>
+            <!-- div 3 -->
+            <div class="sbi">
+                <div class="sbii">
+                    <img id="sbi1" src="./sbi.png" alt="" height="20px">
+                    <h1 style="font-size: 2.5rem;">India's Most <br> Sincere Credit Card</h1>
+                    <p style="font-size: 1.3rem;">Paytm HDFC Bank Select Credit Card. A card <br> Features & Great Rewards that Never Expire<p>
+                    <p style="font-size: 0.8rem; color: gray;">*Paytm Payments Bank does not provide any loan or credit <br> card on the Paytm App. <span style="color: rgb(40, 161, 241);">Know more.</span></p>
+                    <img src="./crd2.webp" alt="" height="300px">
+                </div>
+            </div>
+            <!-- div4 -->
+            <div class="ins">
+                <div class="instxt">
+                    <img style="margin-bottom: 15px;" src="./umptm.webp" alt="img" height="55px">
+                    <h1>Insurance made easy.</h1>
+                    <p>Buying insurance does not have to be tedious, time- <br>consuming & confusing. Paytm Insurance removes the <br>worry of getting insured by making it simple, <br> convenient & easy-to-understand.</p>
+                    <div class="lrnmr">
+                        <p id="lm">Learn More  ></p>
+                    </div>
+                </div>
+                <img id="insimg" src="./phcrlfvl.webp" alt="img" height="400px">
+            </div>
+            <!-- paytm money -->
+             <img id="mnt" src="./mountainn.avif" alt="img" height="570px" width="1497px">
+             <img id="ptmimg" src="./ptm.webp" alt="img" height="430px">
+             <div class="pmtxt">
+                <img src="./ptmny.webp" alt="img" height="55px">
+                <h1>Build Long-term <br> Wealth & Achieve <br> your Goals.</h1>
+                <p>Investing on Paytm Money is transparent, low-cost and <br> commission-free. Buy stocks & mutual funds that can <br> help you create wealth & realise your dreams.</p>
+                <div class="lrnmr2">
+                    <p id="lm2">Learn More  ></p>
+                </div>
+             </div>
+        </div>
+
+        <!-- financial services -->
+         <div class="financial">
+            <h1>Financial Services by Paytm</h1>
+            <img style="margin-top: 10px;" src="./pl.png" alt="img" height="70px">
+            <h2>Get a Personal Loan in 2 <br> Minutes.</h2>
+            <p>Paytm offers India's quickest multi-purpose, hassle- <br>free loan. It is 100% digital, transparent and <br> paperless.</p>
+            <img id="cgts" src="cngrts.avif" alt="img" height="450px">
+            <div class="lrnmr3">
+                <p id="lm3">Learn More  ></p>
+            </div>
+         </div>
+
+        <!-- Business Services -->
+        <h1 id="bsns">Business Services by Paytm</h1>
+        <div class="accept">
+            <h1 id="acc">Accept payments <br> online with ease</h1>
+            <p id="grow">Grow your business with the payment gateway that <br> powers India's largest brands and even the Paytm App</p>
+            <img id="gw" src="./cart.avif" alt="img" height="460px">
+            <div class="lrnmr4">
+                <p id="lm4">Learn More  ></p>
+            </div>
+        </div>
+
+        <!-- in-shop payments -->
+        <div class="accept2" style="margin-top: 50px;">
+            <h1 id="acc2">In-shop payments <br> powered by Paytm.</h1>
+            <p id="grow2">Millions of small & big businesses use Paytm to accept <br> payments anywhere any time with a wide range of <br>solutions for all kind of merchants </p>
+            <img id="gw2" src="./qr.avif" alt="img" height="340px">
+            <div class="lrnmr5" style="margin-top: 30px;">
+                <p id="lm5">Learn More  ></p>
+            </div>
+        </div>
+
+        <!-- business tools -->
+         <h1 id="bt">Business Tools to help <br> your business grow</h1>
+         <div class="bustl">
+            <div class="bt1">
+                <img id="btimg" src="./pos.webp" alt="img" height="220px">
+                <h1>POS Billing <br> Software</h1>
+                <!-- <p  style="font-size: 1.3rem; margin-top: 30px;">Say Hello to Smart Retail <br> <span id="sp1">Business Management</span> <br><span id="sp4" style="font-size: 1rem;"><b>Learn More</b></span></p> -->
+                 <p id="btp">Say Hello to Smart Retail <br> Business Management <br></p>
+                 <p><b>Learn More</b></p>
+            </div>
+
+            <div class="bt1">
+                <img id="btimg" src="./ba.webp" alt="img" height="220px">
+                <h1>Paytm for <br>Business App</h1>
+                <!-- <p  style="font-size: 1.3rem; margin-top: 30px;">Everything you need to <br> <span id="sp1">Business Management</span><span id="sp2">on your phone</span> <br><span id="sp3" style="font-size: 1rem;"><b>Learn More</b></span></p> -->
+                <p id="btp">Everything you need to <br> manage your business <br> on your phone </p>
+                <p><b>Learn More</b></p>
+            </div>
+
+            <div class="bt1">
+                <img id="btimg" src="./ad.webp" alt="img" height="220px">
+                <h1>Advertise on <br> Paytm</h1>
+                <!-- <p  style="font-size: 1.3rem; margin-top: 30px;">Grow your business by <br> <span id="sp1">advertising on India's</span><span id="sp2">largest mobile business</span> <br><span id="sp3" style="font-size: 1rem;"><b>Learn More</b></span></p> -->
+                <p id="btp">Grow your business by <br> advertising on India's <br> largest mobile business </p>
+                <p><b>Learn More</b></p>
+            </div>
+
+            <div class="bt1">
+                <img id="btimg" src="./buk.webp" alt="img" height="220px">
+                <h1>POS Billing <br> Software</h1>
+                <!-- <p  style="font-size: 1.3rem; margin-top: 30px;">Say Hello to Smart Retail <br> <span id="sp1">Business Management</span> <br><span id="sp4" style="font-size: 1rem;"><b>Learn More</b></span></p> -->
+                <p id="btp">Say Hello to Smart Retail <br> easy <br></p>
+                <p><b>Learn More</b></p>
+            </div>
+         </div>
+
+         <!-- paytm money -->
+          <div class="paymy">
+            <img src="./ptmny.webp" alt="img" height="55px">
+            <p style="margin-top: 50px;">Get started on wealth <br> creation journey with Zero <br> brokerage fee & no hidden <br> charges.</p>
+            <p style="color: rgb(82, 181, 247);">Learn More</p>
+          </div>
+          
+          <div class="pmbx1">
+            <img id="bul" src="./invststk.webp" alt="img" height="160px">
+            <p id="blp"><b>Invest in <br> Stocks</b></p>
+          </div>
+
+          <div class="pmbx1">
+            <img id="bul" src="./pply.webp" alt="img" height="160px">
+            <p id="blp2"><b>Apply for IPO</b></p>
+          </div>
+
+          <div class="pmbx1">
+            <img id="bul" src="./etf.webp" alt="img" height="160px">
+            <p id="blp"><b>Invest in <br> ETFs</b></p>
+          </div>
+
+          <div class="pmbx1">
+            <img id="bul" src="./bgold.webp" alt="img" height="160px">
+            <p id="blp"><b>Buy Gold</b></p>
+          </div>
+
+          <div class="pmbx1">
+            <img id="bul" src="./mf.webp" alt="img" height="160px">
+            <p id="blp2"><b>Invest in <br>Mutual Funds</b></p>
+          </div>
+
+          <!-- paytm travel -->
+           <div class="paytrvl">
+            <img src="./ptmtrvl2.webp" alt="img" height="55px">
+            <p style="margin-top: 60px;">Best travel solutions with <br> quick ticket bookings, great <br> offers and easy refunds.</p>
+            <p style="color: rgb(82, 181, 247);">Learn More</p>
+          </div>
+          
+          <div class="pmtrvl1">
+            <img id="ptr" src="./refund.webp" alt="img" height="70px">
+            <p id="ptrp"><b>100% Refund <br><span style="font-size: 0.8rem;">With Paytm's <br>Cancellation Protect</span> </b></p>
+          </div>
+
+          <div class="pmtrvl1">
+            <img id="ptr" src="./sbus.webp" alt="img" height="70px">
+            <p id="ptrp"><b>Sanitised Bus <br>Options With <br>TravelSafe+ </b></p>
+          </div>
+
+          <div class="pmtrvl1">
+            <img id="ptr" src="./trntckt.avif" alt="img" height="70px">
+            <p id="ptrp"><b>Hassle Free <br>Train Ticket <br>Bookings </b></p>
+          </div>
+
+          <div class="pmtrvl1">
+            <img id="ptr" src="./pnr.webp" alt="img" height="70px">
+            <p id="ptrp"><b>PNR Status <br>Check In Few <br>Simple Clicks </b></p>
+          </div>
+
+        <!-- last part -->
+        <div class="lstmain">
+            <h1>Download Paytm App <br> to Pay from anywhere</h1>
+            <img id="asgp" src="./asgp.png" alt="img" height="60px">
+            <img id="xif" src="./xif.png" alt="img" height="42px">
+            <div class="inside">
+                <hr>
+                <p><span><img style="margin-top: 60px;" src="./plus.png" alt="logo" height="15px"></span> <span style="margin-left: 10px; color: rgb(73, 71, 71);"><b>Invostor Relations</b></span><hr id="hrr1"></p>
+                <p><span><img src="./plus.png" alt="logo" height="15px"></span> <span style="margin-left: 10px; color: rgb(73, 71, 71);"><b>More about Paytm</b></span><hr id="hrr1"></p>
+                <p><span><img src="./plus.png" alt="logo" height="15px"></span> <span style="margin-left: 10px; color: rgb(73, 71, 71);"><b>Company</b></span><hr id="hrr2"></p>
+                <p><span><img src="./plus.png" alt="logo" height="15px"></span> <span style="margin-left: 10px; color: rgb(73, 71, 71);"><b>Important Updated</b></span><hr id="hrr1"></p>
+                <p><span style="margin-left: 5px; color: rgb(73, 71, 71);"><b>Career</b></span><hr id="hrr3"></p>
+                <p><span><img src="./plus.png" alt="logo" height="15px"></span> <span style="margin-left: 10px; color: rgb(73, 71, 71);"><b>Recharge & pay bills</b></span><hr id="hrr4"></p>
+                <p><span><img src="./plus.png" alt="logo" height="15px"></span> <span style="margin-left: 10px; color: rgb(73, 71, 71);"><b>Pay Loan EMI, Insurance Premiums & Education Fee</b></span><hr id="hrr5"></p>
+                <p><span><img src="./plus.png" alt="logo" height="15px"></span> <span style="margin-left: 10px; color: rgb(73, 71, 71);"><b>Book Travel & Entertainment</b></span><hr id="hrr6"></p>
+                <p><span><img src="./plus.png" alt="logo" height="15px"></span> <span style="margin-left: 9px; color: rgb(73, 71, 71);"><b>Investments & Miscellaneous</b></span><hr id="hrr6"></p>
+                <p><span><img src="./plus.png" alt="logo" height="15px"></span> <span style="margin-left: 9px; color: rgb(73, 71, 71);"><b>Loans ans Credit Cards</b></span><hr id="hrr7"></p>
+                <p><span><img src="./plus.png" alt="logo" height="15px"></span> <span style="margin-left: 10px; color: rgb(73, 71, 71);"><b>Financial Tool & Calculatord</b></span><hr id="hrr6"></p>
+            </div>
+        </div>
+        <div class="lblue"></div>
+        <div class="dblue"></div>
+</body>
+</html>

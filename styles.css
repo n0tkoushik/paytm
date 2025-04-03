@@ -1,0 +1,1020 @@
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    /* padding: px; */
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    height: 85px;
+    position: relative;
+}
+
+.logo-name {
+    position: absolute;
+    padding: 10px;
+    left: 160px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links li a {
+    position: relative;
+    font-size: 1.1rem;
+    color: black;
+    text-decoration: none;
+    font-family: "Kanit", sans-serif;
+    font-weight: bolder;
+    padding: 8px 4px;
+    transition: background-color 0.3s;
+    left: 335px;
+    /* top: px; */
+}
+
+.nav-links li a:hover {
+    background-color: rgb(245, 246, 248);
+    color: black;
+}
+
+
+/* Hamburger Menu */
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+    top: 15px;
+}
+
+.hamburger span {
+    height: 3px;
+    width: 25px;
+    background-color: black;
+    margin: 5px 0;
+    border-radius: 2px;
+}
+
+/* Toggle checkbox for mobile */
+#toggle-menu {
+    display: none;
+}
+
+#toggle-menu:checked ~ .nav-links {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+
+.sign{
+    position: absolute;
+    background-color: rgb(82, 181, 247);
+    border-radius: 50px;
+    height: 40px;
+    width: 110px;
+    left: 1220px;
+    top: 17px;
+}
+.sign:hover{
+    background-color: rgb(23, 51, 108);
+}
+#sign{
+    position: absolute;
+    top: -5px;
+    left: 15px;
+    color: aliceblue;
+    font-size: 1rem;
+    font-family: "Kanit", sans-serif;
+}
+.dbg{
+    position: absolute;
+    background-color: rgb(23, 51, 108) ;
+    height: 34px;
+    width: 34px;
+    border-radius: 50%;
+    left: 73px;
+    top: 2px;
+}
+#signin{
+    position: absolute;
+    /* background-color: rgb(8, 8, 74); */
+    /* height: 28px; */
+    height: 37px;
+    top: -1px;
+    border-radius: 50%;
+    /* top: 6px; */
+    /* left: 5px; */
+}
+.sign:hover .dbg{
+    background-color: rgb(82, 181, 247);
+}
+.main{
+    position: relative;
+    left: 150px;
+    top: 40px;
+}
+/* travel */
+.travel{
+    /* background: linear-gradient(#daf5f8,white) ; */
+    background-color:#daf5f8 ;
+    height: 660px;
+}
+.flights{
+    position: relative;
+    height: 30px;
+    width: 90px;
+}
+#flt{
+    position: absolute;
+    top: -13px;
+    left: 25px;
+    font-size: 0.9rem;
+    font-family: "Kanit", sans-serif;
+}
+/* bus */
+.bus{
+    position: relative;
+    height: 30px;
+    width: 90px;
+    left: 15px;
+}
+#bstxt{
+    position: absolute;
+    top: -15px;
+    left: 20px;
+    font-size: 0.9rem;
+    font-family: "Kanit", sans-serif;
+}
+/* train */
+.train{
+    position: relative;
+    height: 30px;
+    width: 90px;
+    left: 15px;
+}
+#trntxt{
+    position: absolute;
+    top: -15px;
+    left: 20px;
+    font-size: 0.9rem;
+    font-family: "Kanit", sans-serif;
+}
+/* flight2 */
+.flight2{
+    position: relative;
+    height: 30px;
+    width: 90px;
+    left: 20px;
+    top: -4px;
+}
+#fltxt{
+    position: absolute;
+    top: -10px;
+    left: 25px;
+    font-size: 0.9rem;
+    font-family: "Kanit", sans-serif;
+}
+#ptmtrvl{
+    position: relative;
+    left: 710px;
+    top: -8px;
+}
+.vehicle{
+    position: relative;
+    display: flex;
+    top: 20px;
+}
+/* white box */
+.whitebox{
+    position: relative;
+    background-color: white;
+    border: 1px solid rgb(221, 198, 198);
+    border-radius: 10px;
+    height: 220px;
+    width: 1225px;
+    top: 30px;
+    left: -10px;
+}
+.radio{
+    position: absolute;
+    font-family: "Kanit", sans-serif;
+    top: 25px;
+    left: 20px;
+    font-size: 1rem;
+}
+
+.del{
+    position: absolute;
+    font-family: "Kanit", sans-serif;
+    top: 60px;
+    left: 30px;
+    font-size: 0.7rem;
+}
+#aro{
+    position: absolute;
+    top: 90px;
+    left: 220px;
+}
+#hr1, #hr2, #hr3, #hr4, #hr5{
+    border-top: 0.5px solid rgb(229, 217, 217);
+}
+.bom{
+    position: absolute;
+    font-family: "Kanit", sans-serif;
+    top: 60px;
+    left: 280px;
+    font-size: 0.7rem;
+}
+
+.date{
+    position: absolute;
+    font-family: "Kanit", sans-serif;
+    top: 60px;
+    left: 540px;
+    font-size: 0.7rem;
+}
+
+.addr{
+    position: absolute;
+    font-family: "Kanit", sans-serif;
+    top: 60px;
+    left: 715px;
+    font-size: 0.7rem;
+}
+
+.ttrvl{
+    position: absolute;
+    font-family: "Kanit", sans-serif;
+    top: 60px;
+    left: 850px;
+    font-size: 0.7rem;
+}
+#caps, #caps2, #caps3, #caps4, #caps5{
+    position: absolute;
+    top: 28px;
+}
+.srchflt{
+    position: absolute;
+    background-color: rgb(70, 181, 255);
+    border-radius: 10px;
+    height: 50px;
+    width: 160px;
+    top: 80px;
+    left: 1020px;
+}
+#sf{
+    position: absolute;
+    color: white;
+    font-weight: bolder;
+    top: 0px;
+    left: 25px;
+    font-family: "Kanit", sans-serif;
+}
+
+.wwrds{
+    position: absolute;
+    top: 150px;
+    left: 30px;
+}
+#wrd{
+    color: gray;
+    font-family: "Kanit", sans-serif;
+
+}
+#wrd1{
+     /* background-color: violet; */
+    position: relative;
+    border:0.9px solid rgb(226, 216, 216);
+    font-family: "Kanit", sans-serif;
+    color: gray;
+    border-radius: 15px;
+    padding: 7px;
+    height: 30px;
+    width: 60px;
+    margin-left: 10px;
+    margin-right:10px;
+}
+#wrd2{
+    position: relative;
+    border:0.9px solid rgb(226, 216, 216);
+    font-family: "Kanit", sans-serif;
+    color: gray;
+    border-radius: 15px;
+    padding: 7px;
+    height: 30px;
+    width: 60px;
+    margin-right:10px;
+}
+#wrd3{
+    position: relative;
+    border:0.9px solid rgb(226, 216, 216);
+    font-family: "Kanit", sans-serif;
+    color: gray;
+    border-radius: 15px;
+    padding: 7px;
+    height: 30px;
+    width: 60px;
+}
+/* offers */
+.offers{
+    position: relative;
+    display: inline-block;
+    top: 115px;
+    left: 145px;
+}
+#tckt{
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+
+.bills{
+    /* position: relative; */
+    /* width: 1500px; */
+    background-color: rgb(54, 184, 255);
+    display: flex;
+    height: 390px;
+    /* top: 749px; */
+ }
+
+ #recharge{
+    position: absolute;
+    font-family: "Kanit", sans-serif;
+    color: white;
+    top: 800px;
+    left:125px;
+    font-size: 2.2rem;
+ }
+.pay, .pay1, .pay2, .pay3, .pay4, .pay5, .pay6{
+    /* background-color: rgb(39, 168, 237); */
+    border-radius: 10px;
+    position: relative;
+    height: 175px;
+    width: 150px;
+    font-family: "Kanit", sans-serif;
+    color: white;
+    left: 135px;
+    top: 150px;
+    margin-right: 40px;
+}
+.pay:hover{
+    background-color: rgb(39, 168, 237);
+}
+.pay1:hover{
+    background-color: rgb(39, 168, 237);
+}
+.pay2:hover{
+    background-color: rgb(39, 168, 237);
+}
+.pay3:hover{
+    background-color: rgb(39, 168, 237);
+}
+.pay4:hover{
+    background-color: rgb(39, 168, 237);
+}
+.pay5:hover{
+    background-color: rgb(39, 168, 237);
+}
+.pay6:hover{
+    background-color: rgb(39, 168, 237);
+}
+
+#spc1{
+    position: absolute;
+    margin-top: 5px;
+    width: 120px;
+    /* top: 20px; */
+}
+#spct1{
+    position: absolute;
+    /* background-color: blueviolet; */
+    margin-top: 10px;
+    width: 110px;
+}
+.pay>p, .pay1>p, .pay2>p, .pay3>p, .pay4>p, .pay5>p, .pay6>p{
+    position: absolute;
+    left: 10px;
+    top:80px;   
+}
+
+/* india's app */
+.imlpa{
+    background-color: white;
+    height: 680px;
+}
+.mainapp{
+    position:absolute;
+    background-color: white;
+    left: 130px;
+    font-family: "Kanit", sans-serif;
+    font-size: 1.7rem;
+    top: 1220px;
+    height: 500px;
+}
+.apps{
+    position: absolute;
+    background-color: black;
+    border-radius: 30px;
+    color: white;
+    font-size: 1rem;
+    width: 250px;
+    margin-top: 30px;
+}
+#dld{
+    margin-left: 20px;
+}
+.app{
+    position: absolute;
+    top: 10px;
+    left: 180px;
+}
+#threeph{
+    position: absolute;
+    top: 1260px;
+    left: 959px;
+}
+
+/* book and buy */
+.bkby{
+    /* position: relative; */
+    /* width: 1500px; */
+    background-color: rgb(17, 62, 106);
+    display: flex;
+    height: 360px;
+    /* top: 749px; */
+ }
+
+ #recharge{
+    position: absolute;
+    font-family: "Kanit", sans-serif;
+    color: white;
+    top: 800px;
+    left:125px;
+    font-size: 2.2rem;
+ }
+ #buy{
+    position: absolute;
+    font-family: "Kanit", sans-serif;
+    color: white;
+    top: 1850px;
+    left:125px;
+    font-size: 2.2rem;
+ }
+ .payy, .payy1, .payy2, .payy3, .payy4, .payy5, .payy6{
+    /* background-color: rgb(39, 168, 237); */
+    border-radius: 10px;
+    position: relative;
+    height: 175px;
+    width: 150px;
+    font-family: "Kanit", sans-serif;
+    color: white;
+    left: 135px;
+    top: 150px;
+    margin-right: 40px;
+}
+.payy:hover{
+    background-color: rgb(11, 50, 90);
+}
+.payy1:hover{
+    background-color: rgb(11, 50, 90);
+}
+.payy2:hover{
+    background-color: rgb(11, 50, 90);
+}
+.payy3:hover{
+    background-color: rgb(11, 50, 90);
+}
+.payy4:hover{
+    background-color: rgb(11, 50, 90);
+}
+.payy5:hover{
+    background-color: rgb(11, 50, 90);
+}
+.payy6:hover{
+    background-color: rgb(11, 50, 90);
+}
+.payy>p, .payy1>p, .payy2>p, .payy3>p, .payy4>p, .payy5>p, .payy6>p{
+    position: absolute;
+    left: 10px;
+    top:80px;   
+}
+
+/* paytm payment instruments */
+.instruments{
+    background-color:rgb(245, 247, 250);
+    position: relative;
+    top: -18px;
+    font-family: "Kanit", sans-serif;
+    /* height: 2885px; */
+    height: 2950px;
+}
+.ppl{
+    position: absolute;
+    background-color: white;
+    border-radius: 15px;
+    width: 1170px;
+    top: 230px;
+    left: 170px;
+    height: 620px;
+    font-size: 1.5rem;
+}
+#ppt{
+    font-size: 3rem;
+    position: absolute;
+    top: 100px;
+    left: 170px;
+}
+
+#paid{
+    position: absolute;
+    left: 500px;
+    top:0px;
+}
+.upi{
+    position: absolute;
+    top: 80px;
+    left: 110px;
+}
+#upitxt{
+    position: absolute;
+    top: 10px;
+    left: 100px;
+}
+.appss{
+    position: absolute;
+    background-color: black;
+    border-radius: 30px;
+    color: white;
+    font-size: 1rem;
+    width: 250px;
+    margin-top: 30px;
+    top: 450px;
+    left: 120px;
+}
+
+/* div2 */
+.hdfc{
+    position: absolute;
+    background-color: white;
+    top: 900px;
+    left: 170px;
+    border-radius: 15px;
+    height: 702px;
+    width: 560px;
+}
+.hdfcc{
+    margin-left: 60px;
+    margin-top: 50px;
+}
+
+.sbi{
+    position: absolute;
+    background-color: white;
+    border-radius: 15px;
+    top: 900px;
+    left: 780px;
+    height: 702px;
+    width: 560px;
+}
+.sbii{
+    margin-left: 60px;
+    margin-top: 120px;
+}
+
+/* insurance */
+.ins{
+    position: relative;
+    height: 600px;
+    background-color:white;
+    top: 1720px;
+    font-size: 1.3rem;
+}
+.instxt{
+    position: absolute;
+    top: 105px;
+    left: 165px;;
+}
+
+.lrnmr{
+    position: absolute;
+    background-color: rgb(2, 47, 93);
+    border-radius: 30px;
+    height: 50px;
+    width: 170px;
+    left: 0px;
+    top: 315px;
+} 
+ #lm{
+   position: absolute;
+   color: white;
+   top: -10px;
+   left: 20px;
+}
+#insimg{
+    position: absolute;
+    left: 910px;
+    top: 80px;
+}
+
+/* paytm money */
+#mnt{
+    position: relative;
+    top: 1780px;
+}
+#ptmimg{
+    position: absolute;
+    top: 2410px;
+    left: 170px;
+}
+.pmtxt{
+    position: absolute;
+    top: 2420px;
+    left: 800px;
+    font-size: 1.3rem;
+}
+.pmtxt>h1{
+    margin-top: 40px;
+}
+.lrnmr2{
+    position: absolute;
+    background-color: rgb(2, 47, 93);
+    border-radius: 30px;
+    height: 50px;
+    width: 170px;
+    top: 380px; 
+} 
+ #lm2{
+   position: absolute;
+   color: white;
+   top: -8px;
+   left: 20px;
+}
+
+/* financial service */
+.financial{
+    position: relative;
+    /* background-color: darkslategray; */
+    font-family: "Kanit", sans-serif;
+    height: 500px;
+    top: 80px;
+    left: 170px;
+    font-size: 1.5rem;
+}
+#cgts{
+    position: absolute;
+    top: 80px;
+    left: 720px;
+}
+.financial>h2{
+    margin-top: 50px;
+}
+.financial>p{
+    margin-top: 50px;
+}
+.lrnmr3{
+    position: absolute;
+    background-color: rgb(2, 47, 93);
+    border-radius: 30px;
+    height: 50px;
+    width: 170px;
+    top: 480px; 
+} 
+ #lm3{
+   position: absolute;
+   color: white;
+   top: -10px;
+   left: 20px;
+}
+#bsns{
+    position: relative;
+    font-family: "Kanit", sans-serif;
+    top: 330px;
+    left: 170px;
+    font-size: 3rem;
+}
+.accept{
+    position: relative;
+    background-color: rgb(244, 245, 250);
+    border-radius: 15px;
+    top: 330px;
+    left: 170px;
+    font-family: "Kanit", sans-serif;
+    font-size: 1.2rem;
+    height: 610px;
+    width: 1170px;
+}
+#acc, #grow{
+    position: relative;
+    top: 220px;
+    left: 115px;
+}
+#gw{
+    position: absolute;
+    left: 740px;
+    top: 85px;
+}
+.lrnmr4, .lrnmr5{
+    position: absolute;
+    background-color: rgb(2, 47, 93);
+    border-radius: 30px;
+    height: 50px;
+    width: 170px;
+    top: 410px; 
+    left: 110px;
+} 
+ #lm4, #lm5{
+   position: absolute;
+   color: white;
+   top: -7px;
+   left: 20px;
+}
+
+.accept2{
+    position: relative;
+    background-color: rgb(244, 245, 250);
+    border-radius: 15px;
+    top: 330px;
+    left: 170px;
+    font-family: "Kanit", sans-serif;
+    font-size: 1.2rem;
+    height: 510px;
+    width: 1170px;
+}
+#acc2, #grow2{
+    position: relative;
+    top: 130px;
+    left: 115px;
+}
+#gw2{
+    position: absolute;
+    left: 740px;
+    top: 85px;
+}
+ .lrnmr5{
+    position: absolute;
+    background-color: rgb(2, 47, 93);
+    border-radius: 30px;
+    height: 50px;
+    width: 170px;
+    top: 310px; 
+    left: 110px;
+} 
+ #lm4, #lm5{
+   position: absolute;
+   color: white;
+   top: -7px;
+   left: 20px;
+}
+/* business tools */
+#bt{
+    position: relative;
+    top: 470px;
+    font-family: "Kanit", sans-serif;
+    font-size: 2.5rem;
+    left: 170px;
+}
+#btimg{
+    margin-bottom: 30px;
+}
+.bustl{
+    position: relative;
+    /* background-color: thistle; */
+    display: flex;
+    top: 530px;
+    left: 170px;
+    font-family: "Kanit", sans-serif;
+    font-size: 0.9rem;
+    /* margin-right: 50px; */
+}
+#sp1{
+    position: absolute;
+    margin-top: 5px;
+}
+#sp2{
+    position: absolute;
+    margin-top: 33px;
+}
+#sp3{
+    position: absolute;
+    margin-top: 50px;
+}
+#sp4{
+    position: absolute;
+    margin-top: 23px;
+}
+.bt1{
+    margin-right: 70px;
+    margin-top: 10px;
+}
+
+/* paytm money2 */
+.paymy{
+    position: relative;
+    top: 905px;
+    font-family: "Kanit", sans-serif;
+    line-height: 23px;
+    left: 235px;
+}
+
+.pmbx1{
+    position: relative;
+    background-color: rgb(82, 203, 247);;
+    border-radius: 10px;
+    top: 645px;
+    left: 470px;
+    width: 160px;
+    height: 240px;
+    /* display: flex; */
+    display: inline-block;
+    margin-right: 25px;
+}
+.pmbx1:hover{
+    background-color: rgb(82, 178, 247);
+}
+
+#bul{
+    position: absolute;
+    left: 6px;
+    top: 5px;
+}
+.pmbx1:hover #bul{
+    background-color: rgb(82, 178, 247);
+    /* height: 170px; */
+    transform: scale(1.02);
+    transition: transform 0.3s ease-in-out;
+}
+#blp{
+    position: absolute;
+    left: 44px;
+    top: 160px;
+    font-family: "Kanit", sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 1.1rem;
+}
+#blp2{
+    position: absolute;
+    left: 25px;
+    top: 160px;
+    font-family: "Kanit", sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+/* ptm trvl2 */
+.paytrvl{
+    position: relative;
+    top: 800px;
+    font-family: "Kanit", sans-serif;
+    line-height: 23px;
+    left: 235px;
+}
+.pmtrvl1{
+    position: relative;
+    background-color: rgb(82, 206, 247);
+    border-radius: 10px;
+    top: 555px;
+    left: 470px;
+    width: 160px;
+    height: 240px;
+    /* display: flex; */
+    display: inline-block;
+    margin-right: 25px;
+}
+.pmtrvl1:hover{
+    background-color: rgb(82, 178, 247);
+    /* transition: opacity 0.1s ease-in-out; */
+    transition: all 0.3s ease-in-out;
+}
+#ptr{
+    position: absolute;
+    left: 10px;
+    top: 40px;
+}
+#ptrp{
+    position: absolute;
+    left: 15px;
+    top: 120px;
+    font-family: "Kanit", sans-serif;
+    color: white;
+    font-size: 1.1rem;
+}
+
+/* last part */
+.lstmain{
+    position: relative;
+    background-color: rgb(244, 245, 250);
+    top: 710px;
+    height: 970px;
+    font-family: "Kanit", sans-serif;
+    font-size: 0.65rem;
+}
+.lstmain>h1{
+    position: absolute;
+    top: 75px;
+    left: 120px;
+}
+#asgp{
+    position: absolute;
+    top: 90px;
+    left: 340px;
+}
+#xif{
+    position: absolute;
+    top: 95px;
+    left: 1225px;
+}
+.inside{
+    position: absolute;
+    /* background-color: rgb(219, 238, 238); */
+    /* height: 500px; */
+    width: 1260px;
+    top: 205px;
+    left: 120px;
+    font-size: 0.9rem;
+}
+#hrr1{
+    position: relative;
+    border-top: 0.5px solid rgb(206, 198, 198);
+    top: -17px;
+    left: 85px;
+    width: 1088px;
+}
+#hrr2{
+    position: relative;
+    border-top: 0.5px solid rgb(206, 198, 198);
+    top: -17px;
+    left: 50px;
+    width: 1155px;
+}
+#hrr3{
+    position: relative;
+    border-top: 0.5px solid rgb(206, 198, 198);
+    top: -17px;
+    left: 30px;
+    width: 1195px;
+}
+#hrr4{
+    position: relative;
+    border-top: 0.5px solid rgb(206, 198, 198);
+    top: -17px;
+    left: 95px;
+    width: 1070px;
+}
+#hrr5{
+    position: relative;
+    border-top: 0.5px solid rgb(206, 198, 198);
+    top: -17px;
+    left: 200px;
+    width: 855px;
+}
+#hrr6{
+    position: relative;
+    border-top: 0.5px solid rgb(206, 198, 198);
+    top: -17px;
+    left: 120px;
+    width: 1020px;
+}
+#hrr7{
+    position: relative;
+    border-top: 0.5px solid rgb(206, 198, 198);
+    top: -17px;
+    left: 100px;
+    width: 1050px;
+}
+
+.lblue{
+    position: relative;
+    background-color: rgb(55, 163, 252);
+    height: 12px;
+    top: 690px;
+}
+.dblue{
+    position: relative;
+    background-color: rgb(21, 98, 161);
+    height: 12px;
+    top: 690px;
+}
+
+
+#btp{
+    margin-top: 30px;
+    font-size: 1.3rem;
+    line-height: 30px;
+}
+
